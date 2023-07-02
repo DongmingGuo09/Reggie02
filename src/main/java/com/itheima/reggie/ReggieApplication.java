@@ -12,5 +12,6 @@ public class ReggieApplication {
     public static void main(String[] args) {
         SpringApplication.run(ReggieApplication.class, args);
         log.info("Project Starts successfully!");
+        System.out.println("hallo, springboot");
     }
 }
