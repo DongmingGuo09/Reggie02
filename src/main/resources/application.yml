@@ -6,9 +6,9 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url:
+      url: jdbc:mysql://localhost:3306/reggie
       username: root
-      password: root
+      password: Aa994410
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
